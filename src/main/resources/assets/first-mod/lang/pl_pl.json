@@ -2,5 +2,10 @@
   "item.first-mod.fluorite": "Fluoryt",
   "item.first-mod.raw_fluorite": "Surowy fluoryt",
   "creativemodetab.firstmod.fluorite": "Fluoryt",
-  "block.first-mod.fluorite_block": "Blok Fluorytu"
+  "block.first-mod.fluorite_block": "Blok Fluorytu",
+  "block.first-mod.fluorite_deepslate_ore": "Łupkowa ruda fluorytu",
+  "block.first-mod.fluorite_end_ore": "Endowa ruda fluorytu",
+  "block.first-mod.fluorite_nether_ore": "Netherowa ruda fluorytu",
+  "block.first-mod.fluorite_ore": "Ruda fluorytu",
+  "block.first-mod.raw_fluorite_block": "Blok surowego fluorytu"
 }
