@@ -5,9 +5,11 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.nikitosikuska.firstmod.FirstMod;
@@ -30,30 +32,34 @@ public class ModBlocks {
 
     );
     public static final Block FLUORITE_DEEPSLATE_ORE = registerBlock("fluorite_deepslate_ore",
-            properties -> new Block(properties
-                    .strength(3f)
+            properties -> new DropExperienceBlock(UniformInt.of(3, 6), properties
+                    .strength(4f)
                     .requiresCorrectToolForDrops()
+                    .sound(SoundType.DEEPSLATE)
             )
 
     );
     public static final Block FLUORITE_END_ORE = registerBlock("fluorite_end_ore",
-            properties -> new Block(properties
+            properties -> new DropExperienceBlock(UniformInt.of(5, 8), properties
                     .strength(3f)
                     .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
             )
 
     );
     public static final Block FLUORITE_NETHER_ORE = registerBlock("fluorite_nether_ore",
-            properties -> new Block(properties
-                    .strength(3f)
+            properties -> new DropExperienceBlock(UniformInt.of(3, 6), properties
+                    .strength(2f)
                     .requiresCorrectToolForDrops()
+                    .sound(SoundType.NETHER_ORE)
             )
 
     );
     public static final Block FLUORITE_ORE = registerBlock("fluorite_ore",
-            properties -> new Block(properties
+            properties -> new DropExperienceBlock(UniformInt.of(2, 5), properties
                     .strength(3f)
                     .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
             )
 
     );
