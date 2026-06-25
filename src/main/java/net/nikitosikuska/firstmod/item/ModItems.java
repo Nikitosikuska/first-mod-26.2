@@ -1,14 +1,10 @@
 package net.nikitosikuska.firstmod.item;
 
-import net.fabricmc.fabric.api.creativetab.v1.CreativeModeTabEvents;
-import net.fabricmc.fabric.api.creativetab.v1.FabricCreativeModeTabOutput;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
 import net.nikitosikuska.firstmod.FirstMod;
 
@@ -23,7 +19,6 @@ public class ModItems {
     }
 
     public static void registerModItems() {
-        FirstMod.LOGGER.info("Registering Mod Items for " + FirstMod.MOD_ID);
     }
 
 }

@@ -19,7 +19,6 @@ public class FirstMod implements ModInitializer {
 		ModCreativeModeTabs.registerModCreativeModeTabs();
 
 		ModItems.registerModItems();
-		
 	}
 
 	public static Identifier id(String path) {

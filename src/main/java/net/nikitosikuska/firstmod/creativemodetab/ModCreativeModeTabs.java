@@ -12,16 +12,11 @@ import net.nikitosikuska.firstmod.item.ModItems;
 
 public class ModCreativeModeTabs {
     public static final CreativeModeTab FLUORITE_ITEM_TAB = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
-        Identifier.fromNamespaceAndPath(FirstMod.MOD_ID, "fluorite_items"),
-        FabricCreativeModeTab.builder().icon(() -> new ItemStack(ModItems.FLUORITE)).title(Component.translatable("creativemodetab.firstmod.fluorite_items")).displayItems((parameters, output) -> {
+        Identifier.fromNamespaceAndPath(FirstMod.MOD_ID, "fluorite"),
+        FabricCreativeModeTab.builder().icon(() -> new ItemStack(ModItems.FLUORITE)).title(Component.translatable("creativemodetab.firstmod.fluorite")).displayItems((parameters, output) -> {
             output.accept(ModItems.FLUORITE);
             output.accept(ModItems.RAW_FLUORITE);
         }).build());
-    public static final CreativeModeTab FLUORITE_BLOCK_TAB = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
-            Identifier.fromNamespaceAndPath(FirstMod.MOD_ID, "fluorite_blocks"),
-            FabricCreativeModeTab.builder().icon(() -> new ItemStack(ModItems.RAW_FLUORITE)).title(Component.translatable("creativemodetab.firstmod.fluorite_blocks")).displayItems((parameters, output) -> {
-                output.accept(ModItems.RAW_FLUORITE);
-            }).build());
 
     public static void registerModCreativeModeTabs() {
         FirstMod.LOGGER.info("Registering Creative Mode Tabs for " + FirstMod.MOD_ID);

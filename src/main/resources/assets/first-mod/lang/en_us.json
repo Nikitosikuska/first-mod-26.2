@@ -1,6 +1,5 @@
 {
   "item.first-mod.fluorite": "Fluorite",
   "item.first-mod.raw_fluorite": "Raw Fluorite",
-  "creativemodetab.firstmod.fluorite_items": "Fluorite Items",
-  "creativemodetab.firstmod.fluorite_blocks": "Fluorite blocks"
+  "creativemodetab.firstmod.fluorite": "Fluorite"
 }
