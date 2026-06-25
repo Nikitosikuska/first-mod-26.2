@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
 import net.minecraft.client.data.models.BlockModelGenerators;
 import net.minecraft.client.data.models.ItemModelGenerators;
 import net.minecraft.client.data.models.model.ModelTemplates;
+import net.nikitosikuska.firstmod.block.ModBlocks;
 import net.nikitosikuska.firstmod.item.ModItems;
 import org.jspecify.annotations.NonNull;
 
@@ -15,13 +16,17 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(@NonNull BlockModelGenerators blockModelGenerators) {
-
+        blockModelGenerators.createTrivialCube(ModBlocks.RAW_FLUORITE_BLOCK);
+        blockModelGenerators.createTrivialCube(ModBlocks.FLUORITE_BLOCK);
+        blockModelGenerators.createTrivialCube(ModBlocks.FLUORITE_ORE);
+        blockModelGenerators.createTrivialCube(ModBlocks.FLUORITE_DEEPSLATE_ORE);
+        blockModelGenerators.createTrivialCube(ModBlocks.FLUORITE_NETHER_ORE);
+        blockModelGenerators.createTrivialCube(ModBlocks.FLUORITE_END_ORE);
     }
 
     @Override
     public void generateItemModels(@NonNull ItemModelGenerators itemModelGenerators) {
         itemModelGenerators.generateFlatItem(ModItems.FLUORITE, ModelTemplates.FLAT_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.RAW_FLUORITE, ModelTemplates.FLAT_ITEM);
-
     }
 }

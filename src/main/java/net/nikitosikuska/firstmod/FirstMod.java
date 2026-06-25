@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import net.minecraft.resources.Identifier;
 
+import net.nikitosikuska.firstmod.block.ModBlocks;
 import net.nikitosikuska.firstmod.creativemodetab.ModCreativeModeTabs;
 import net.nikitosikuska.firstmod.item.ModItems;
 import org.slf4j.Logger;
@@ -19,6 +20,8 @@ public class FirstMod implements ModInitializer {
 		ModCreativeModeTabs.registerModCreativeModeTabs();
 
 		ModItems.registerModItems();
+
+		ModBlocks.registerModBlocks();
 	}
 
 	public static Identifier id(String path) {

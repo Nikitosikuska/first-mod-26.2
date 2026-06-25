@@ -1,5 +1,12 @@
 {
   "item.first-mod.fluorite": "Fluorite",
   "item.first-mod.raw_fluorite": "Raw Fluorite",
-  "creativemodetab.firstmod.fluorite": "Fluorite"
+  "creativemodetab.firstmod.fluorite": "Fluorite",
+  "block.first-mod.fluorite_block": "Block of Fluorite",
+  "block.first-mod.fluorite_deepslate_ore": "Fluorite Deepslate Ore",
+  "block.first-mod.fluorite_end_ore": "Fluorite End Ore",
+  "block.first-mod.fluorite_nether_ore": "Fluorite Nether Ore",
+  "block.first-mod.fluorite_ore": "Fluorite Ore",
+  "block.first-mod.raw_fluorite_block": "Raw Fluorite Block"
+
 }

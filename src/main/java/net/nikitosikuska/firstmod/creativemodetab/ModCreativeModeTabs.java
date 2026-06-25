@@ -8,6 +8,7 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.nikitosikuska.firstmod.FirstMod;
+import net.nikitosikuska.firstmod.block.ModBlocks;
 import net.nikitosikuska.firstmod.item.ModItems;
 
 public class ModCreativeModeTabs {
@@ -16,9 +17,14 @@ public class ModCreativeModeTabs {
         FabricCreativeModeTab.builder().icon(() -> new ItemStack(ModItems.FLUORITE)).title(Component.translatable("creativemodetab.firstmod.fluorite")).displayItems((parameters, output) -> {
             output.accept(ModItems.FLUORITE);
             output.accept(ModItems.RAW_FLUORITE);
+            output.accept(ModBlocks.FLUORITE_BLOCK);
+            output.accept(ModBlocks.FLUORITE_DEEPSLATE_ORE);
+            output.accept(ModBlocks.FLUORITE_END_ORE);
+            output.accept(ModBlocks.FLUORITE_NETHER_ORE);
+            output.accept(ModBlocks.FLUORITE_ORE);
+            output.accept(ModBlocks.RAW_FLUORITE_BLOCK);
         }).build());
 
     public static void registerModCreativeModeTabs() {
-        FirstMod.LOGGER.info("Registering Creative Mode Tabs for " + FirstMod.MOD_ID);
     }
 }
