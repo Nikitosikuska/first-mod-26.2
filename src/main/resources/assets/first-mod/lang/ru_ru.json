@@ -1,4 +1,6 @@
 {
   "item.first-mod.fluorite": "Флюорит",
-  "item.first-mod.raw_fluorite": "Сырой флюорит"
+  "item.first-mod.raw_fluorite": "Сырой флюорит",
+  "creativemodetab.firstmod.fluorite_items": "Флюоритовые предметы",
+  "creativemodetab.firstmod.fluorite_blocks": "Флюоритовые блоки"
 }
