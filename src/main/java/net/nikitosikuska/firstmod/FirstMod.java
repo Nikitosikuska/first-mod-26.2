@@ -7,6 +7,7 @@ import net.minecraft.resources.Identifier;
 import net.nikitosikuska.firstmod.block.ModBlocks;
 import net.nikitosikuska.firstmod.creativemodetab.ModCreativeModeTabs;
 import net.nikitosikuska.firstmod.item.ModItems;
+import net.nikitosikuska.firstmod.world.gen.ModWorldGeneration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -22,6 +23,8 @@ public class FirstMod implements ModInitializer {
 		ModItems.registerModItems();
 
 		ModBlocks.registerModBlocks();
+
+		ModWorldGeneration.generateModWorldGen();
 	}
 
 	public static Identifier id(String path) {

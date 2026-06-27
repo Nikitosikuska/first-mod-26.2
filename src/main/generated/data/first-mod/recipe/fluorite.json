@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "first-mod:fluorite_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "first-mod:fluorite"
+  }
+}

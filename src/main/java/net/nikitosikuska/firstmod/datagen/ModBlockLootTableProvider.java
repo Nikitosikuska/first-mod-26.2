@@ -18,7 +18,6 @@ import net.nikitosikuska.firstmod.block.ModBlocks;
 import net.nikitosikuska.firstmod.item.ModItems;
 
 import java.util.concurrent.CompletableFuture;
-import java.util.function.Function;
 
 public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
     public ModBlockLootTableProvider(FabricPackOutput packOutput, CompletableFuture<HolderLookup.Provider> registriesFuture) {
