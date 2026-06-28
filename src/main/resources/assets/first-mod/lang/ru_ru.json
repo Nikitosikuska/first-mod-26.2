@@ -7,5 +7,8 @@
   "block.first-mod.fluorite_end_ore": "Флюоритовая руда Энда",
   "block.first-mod.fluorite_nether_ore": "Флюоритовая руда Незера",
   "block.first-mod.fluorite_ore": "Флюоритовая руда",
-  "block.first-mod.raw_fluorite_block": "Блок необработанного флюорита"
+  "block.first-mod.raw_fluorite_block": "Блок необработанного флюорита",
+  "item.first-mod.strawberry": "Клубника",
+  "block.first-mod.strawberry_bush": "Куст клубники"
+
 }

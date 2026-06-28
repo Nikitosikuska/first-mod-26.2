@@ -9,10 +9,13 @@ import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.nikitosikuska.firstmod.FirstMod;
+import net.nikitosikuska.firstmod.block.custom.StrawberryBushBlock;
+
 import java.util.function.Function;
 import static net.nikitosikuska.firstmod.item.ModItems.registerItem;
 
@@ -62,6 +65,10 @@ public class ModBlocks {
                     .sound(SoundType.STONE)
             )
 
+    );
+    public static final Block STRAWBERRY_BUSH = registerBlock("strawberry_bush",
+            properties -> new StrawberryBushBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.SWEET_BERRY_BUSH)
+                    .setId(ResourceKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath(FirstMod.MOD_ID, "strawberry_bush"))))
     );
 
     private static Block registerBlock(String name, Function<BlockBehaviour.Properties, Block> function) {

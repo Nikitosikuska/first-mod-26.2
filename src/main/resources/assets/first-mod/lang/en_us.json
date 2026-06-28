@@ -7,5 +7,8 @@
   "block.first-mod.fluorite_end_ore": "Fluorite End Ore",
   "block.first-mod.fluorite_nether_ore": "Fluorite Nether Ore",
   "block.first-mod.fluorite_ore": "Fluorite Ore",
-  "block.first-mod.raw_fluorite_block": "Block of Raw Fluorite"
+  "block.first-mod.raw_fluorite_block": "Block of Raw Fluorite",
+  "item.first-mod.strawberry": "Strawberry",
+  "block.first-mod.strawberry_bush": "Strawberry Bush"
+
 }

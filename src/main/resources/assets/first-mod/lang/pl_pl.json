@@ -7,5 +7,8 @@
   "block.first-mod.fluorite_end_ore": "Endowa ruda fluorytu",
   "block.first-mod.fluorite_nether_ore": "Netherowa ruda fluorytu",
   "block.first-mod.fluorite_ore": "Ruda fluorytu",
-  "block.first-mod.raw_fluorite_block": "Blok surowego fluorytu"
+  "block.first-mod.raw_fluorite_block": "Blok surowego fluorytu",
+  "item.first-mod.strawberry": "Truskawka",
+  "block.first-mod.strawberry_bush": "Krzak truskawek"
+
 }

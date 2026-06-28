@@ -23,6 +23,7 @@ public class ModCreativeModeTabs {
             output.accept(ModBlocks.FLUORITE_NETHER_ORE);
             output.accept(ModBlocks.FLUORITE_ORE);
             output.accept(ModBlocks.RAW_FLUORITE_BLOCK);
+            output.accept(ModItems.STRAWBERRY);
         }).build());
 
     public static void registerModCreativeModeTabs() {
