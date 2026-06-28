@@ -5,6 +5,13 @@
     "first-mod:fluorite_deepslate_ore",
     "first-mod:fluorite_end_ore",
     "first-mod:fluorite_nether_ore",
-    "first-mod:raw_fluorite_block"
+    "first-mod:raw_fluorite_block",
+    "first-mod:fluorite_stairs",
+    "first-mod:fluorite_slab",
+    "first-mod:fluorite_fence",
+    "first-mod:fluorite_fence_gate",
+    "first-mod:fluorite_wall",
+    "first-mod:fluorite_door",
+    "first-mod:fluorite_trapdoor"
   ]
 }

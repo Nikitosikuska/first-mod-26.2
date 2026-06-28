@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "fluorite",
+  "key": {
+    "#": "minecraft:stick",
+    "W": "first-mod:fluorite"
+  },
+  "pattern": [
+    "W#W",
+    "W#W"
+  ],
+  "result": {
+    "count": 3,
+    "id": "first-mod:fluorite_fence"
+  }
+}

@@ -9,6 +9,16 @@
   "block.first-mod.fluorite_ore": "Ruda fluorytu",
   "block.first-mod.raw_fluorite_block": "Blok surowego fluorytu",
   "item.first-mod.strawberry": "Truskawka",
-  "block.first-mod.strawberry_bush": "Krzak truskawek"
+  "block.first-mod.strawberry_bush": "Krzak truskawek",
+  "item.first-mod.combustible_spores": "Łatwopalne zarodniki",
+  "block.first-mod.fluorite_stairs": "Schody z fluorytu",
+  "block.first-mod.fluorite_slab": "Płyta fluorytowa",
+  "block.first-mod.fluorite_button": "Przycisk fluorytowy",
+  "block.first-mod.fluorite_pressure_plate": "Płyta naciskowa z fluorytu",
+  "block.first-mod.fluorite_fence": "Płot fluorytowy",
+  "block.first-mod.fluorite_fence_gate": "Furtka fluorytowa",
+  "block.first-mod.fluorite_wall": "Mur fluorytowy",
+  "block.first-mod.fluorite_door": "Drzwi fluorytowe",
+  "block.first-mod.fluorite_trapdoor": "Klapa fluorytowa"
 
 }

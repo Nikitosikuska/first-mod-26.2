@@ -9,6 +9,15 @@
   "block.first-mod.fluorite_ore": "Fluorite Ore",
   "block.first-mod.raw_fluorite_block": "Block of Raw Fluorite",
   "item.first-mod.strawberry": "Strawberry",
-  "block.first-mod.strawberry_bush": "Strawberry Bush"
-
+  "block.first-mod.strawberry_bush": "Strawberry Bush",
+  "item.first-mod.combustible_spores": "Combustible Spores",
+  "block.first-mod.fluorite_stairs": "Fluorite Stairs",
+  "block.first-mod.fluorite_slab": "Fluorite Slab",
+  "block.first-mod.fluorite_button": "Fluorite Button",
+  "block.first-mod.fluorite_pressure_plate": "Fluorite Pressure Plate",
+  "block.first-mod.fluorite_fence": "Fluorite Fence",
+  "block.first-mod.fluorite_fence_gate": "Fluorite Fence Gate",
+  "block.first-mod.fluorite_wall": "Fluorite Wall",
+  "block.first-mod.fluorite_door": "Fluorite Door",
+  "block.first-mod.fluorite_trapdoor": "Fluorite Trapdoor"
 }

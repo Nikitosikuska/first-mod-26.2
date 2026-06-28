@@ -17,13 +17,23 @@ public class ModCreativeModeTabs {
         FabricCreativeModeTab.builder().icon(() -> new ItemStack(ModItems.FLUORITE)).title(Component.translatable("creativemodetab.firstmod.fluorite")).displayItems((parameters, output) -> {
             output.accept(ModItems.FLUORITE);
             output.accept(ModItems.RAW_FLUORITE);
-            output.accept(ModBlocks.FLUORITE_BLOCK);
-            output.accept(ModBlocks.FLUORITE_DEEPSLATE_ORE);
-            output.accept(ModBlocks.FLUORITE_END_ORE);
-            output.accept(ModBlocks.FLUORITE_NETHER_ORE);
-            output.accept(ModBlocks.FLUORITE_ORE);
             output.accept(ModBlocks.RAW_FLUORITE_BLOCK);
+            output.accept(ModBlocks.FLUORITE_BLOCK);
+            output.accept(ModBlocks.FLUORITE_STAIRS);
+            output.accept(ModBlocks.FLUORITE_SLAB);
+            output.accept(ModBlocks.FLUORITE_DOOR);
+            output.accept(ModBlocks.FLUORITE_TRAPDOOR);
+            output.accept(ModBlocks.FLUORITE_FENCE);
+            output.accept(ModBlocks.FLUORITE_FENCE_GATE);
+            output.accept(ModBlocks.FLUORITE_WALL);
+            output.accept(ModBlocks.FLUORITE_BUTTON);
+            output.accept(ModBlocks.FLUORITE_PRESSURE_PLATE);
+            output.accept(ModBlocks.FLUORITE_ORE);
+            output.accept(ModBlocks.FLUORITE_DEEPSLATE_ORE);
+            output.accept(ModBlocks.FLUORITE_NETHER_ORE);
+            output.accept(ModBlocks.FLUORITE_END_ORE);
             output.accept(ModItems.STRAWBERRY);
+            output.accept(ModItems.COMBUSTIBLE_SPORES);
         }).build());
 
     public static void registerModCreativeModeTabs() {

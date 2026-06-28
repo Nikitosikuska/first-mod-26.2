@@ -1,11 +1,11 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
   "group": "fluorite",
   "ingredients": [
-    "first-mod:fluorite",
-    "minecraft:stick"
+    "first-mod:fluorite"
   ],
   "result": {
-    "id": "first-mod:raw_fluorite"
+    "id": "first-mod:fluorite_button"
   }
 }

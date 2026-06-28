@@ -9,6 +9,16 @@
   "block.first-mod.fluorite_ore": "Флюоритовая руда",
   "block.first-mod.raw_fluorite_block": "Блок необработанного флюорита",
   "item.first-mod.strawberry": "Клубника",
-  "block.first-mod.strawberry_bush": "Куст клубники"
+  "block.first-mod.strawberry_bush": "Куст клубники",
+  "item.first-mod.combustible_spores": "Горючие споры",
+  "block.first-mod.fluorite_stairs": "Флюоритовая лестница",
+  "block.first-mod.fluorite_slab": "Флюоритовая плита",
+  "block.first-mod.fluorite_button": "Флюоритовая кнопка",
+  "block.first-mod.fluorite_pressure_plate": "Флюоритовая нажимная плита",
+  "block.first-mod.fluorite_fence": "Флюоритовый забор",
+  "block.first-mod.fluorite_fence_gate": "Флюоритовая калитка",
+  "block.first-mod.fluorite_wall": "Флюоритовая стена",
+  "block.first-mod.fluorite_door": "Флюоритовая дверь",
+  "block.first-mod.fluorite_trapdoor": "Флюоритовый люк"
 
 }

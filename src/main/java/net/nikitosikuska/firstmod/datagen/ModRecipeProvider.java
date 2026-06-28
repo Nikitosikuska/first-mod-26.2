@@ -12,6 +12,7 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.CookingBookCategory;
+import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.ItemLike;
 import net.minecraft.world.level.block.Blocks;
 import net.nikitosikuska.firstmod.FirstMod;
@@ -41,13 +42,33 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 nineBlockStorageRecipes(RecipeCategory.BUILDING_BLOCKS, ModItems.FLUORITE, RecipeCategory.DECORATIONS, ModBlocks.FLUORITE_BLOCK);
                 nineBlockStorageRecipes(RecipeCategory.BUILDING_BLOCKS, ModItems.RAW_FLUORITE, RecipeCategory.DECORATIONS, ModBlocks.RAW_FLUORITE_BLOCK);
 
-                shapeless(RecipeCategory.MISC, ModItems.RAW_FLUORITE)
-                        .requires(ModItems.FLUORITE)
-                        .requires(Items.STICK)
-                        .unlockedBy(getHasName(ModItems.FLUORITE), has(ModItems.FLUORITE))
-                        .unlockedBy(getHasName(Items.STICK), has(Items.STICK))
+                stairBuilder(ModBlocks.FLUORITE_STAIRS, Ingredient.of(ModBlocks.FLUORITE_BLOCK))
+                        .unlockedBy(getHasName(ModBlocks.FLUORITE_BLOCK), has(ModBlocks.FLUORITE_BLOCK))
                         .group("fluorite")
-                        .save(output, "raw_fluorite_from_fluorite_and_stick");
+                        .save(output);
+                slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.FLUORITE_SLAB, ModBlocks.FLUORITE_BLOCK);
+                buttonBuilder(ModBlocks.FLUORITE_BUTTON, Ingredient.of(ModItems.FLUORITE))
+                        .unlockedBy(getHasName(ModItems.FLUORITE), has(ModItems.FLUORITE))
+                        .group("fluorite")
+                        .save(output);
+                pressurePlate(ModBlocks.FLUORITE_PRESSURE_PLATE, ModItems.FLUORITE);
+                fenceBuilder(ModBlocks.FLUORITE_FENCE, Ingredient.of(ModItems.FLUORITE))
+                        .unlockedBy(getHasName(ModItems.FLUORITE), has(ModItems.FLUORITE))
+                        .group("fluorite")
+                        .save(output);
+                fenceGateBuilder(ModBlocks.FLUORITE_FENCE_GATE, Ingredient.of(ModItems.FLUORITE))
+                        .unlockedBy(getHasName(ModItems.FLUORITE), has(ModItems.FLUORITE))
+                        .group("fluorite")
+                        .save(output);
+                wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.FLUORITE_WALL, ModBlocks.FLUORITE_BLOCK);
+                doorBuilder(ModBlocks.FLUORITE_DOOR, Ingredient.of(ModItems.FLUORITE))
+                        .unlockedBy(getHasName(ModItems.FLUORITE), has(ModItems.FLUORITE))
+                        .group("fluorite")
+                        .save(output);
+                trapdoorBuilder(ModBlocks.FLUORITE_TRAPDOOR, Ingredient.of(ModItems.FLUORITE))
+                        .unlockedBy(getHasName(ModItems.FLUORITE), has(ModItems.FLUORITE))
+                        .group("fluorite")
+                        .save(output);
             }
         };
     }

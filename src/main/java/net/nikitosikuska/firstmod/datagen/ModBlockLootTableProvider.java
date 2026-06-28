@@ -41,6 +41,16 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
 
         add(ModBlocks.FLUORITE_NETHER_ORE, createMultipleOreDrops(ModBlocks.FLUORITE_NETHER_ORE, ModItems.RAW_FLUORITE, 3, 6));
         add(ModBlocks.FLUORITE_END_ORE, createMultipleOreDrops(ModBlocks.FLUORITE_END_ORE, ModItems.RAW_FLUORITE, 5, 8));
+        dropSelf(ModBlocks.FLUORITE_STAIRS);
+        add(ModBlocks.FLUORITE_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.FLUORITE_PRESSURE_PLATE);
+        dropSelf(ModBlocks.FLUORITE_BUTTON);
+        dropSelf(ModBlocks.FLUORITE_FENCE);
+        dropSelf(ModBlocks.FLUORITE_FENCE_GATE);
+        dropSelf(ModBlocks.FLUORITE_WALL);
+        dropSelf(ModBlocks.FLUORITE_TRAPDOOR);
+
+        add(ModBlocks.FLUORITE_DOOR, this::createDoorTable);
 
         this.add(
                 ModBlocks.STRAWBERRY_BUSH,
