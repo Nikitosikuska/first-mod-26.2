@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "fluorite",
+  "key": {
+    "#": "first-mod:raw_fluorite_block"
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "first-mod:raw_fluorite_stairs"
+  }
+}

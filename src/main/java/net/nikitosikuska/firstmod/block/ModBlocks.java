@@ -133,6 +133,26 @@ public class ModBlocks {
                     .noOcclusion()
                     .sound(SoundType.AMETHYST))
     );
+    public static final Block RAW_FLUORITE_STAIRS = registerBlock("raw_fluorite_stairs",
+            properties -> new StairBlock(ModBlocks.FLUORITE_BLOCK.defaultBlockState(), properties
+                    .strength(3f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.AMETHYST))
+
+    );
+    public static final Block RAW_FLUORITE_SLAB = registerBlock("raw_fluorite_slab",
+            properties -> new SlabBlock(properties
+                    .strength(3f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.AMETHYST))
+
+    );
+    public static final Block RAW_FLUORITE_WALL = registerBlock("raw_fluorite_wall",
+            properties -> new WallBlock(properties
+                    .strength(3f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.AMETHYST))
+    );
 
     private static Block registerBlock(String name, Function<BlockBehaviour.Properties, Block> function) {
         Block toRegister = function.apply(BlockBehaviour.Properties.of().setId(ResourceKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath(FirstMod.MOD_ID, name))));

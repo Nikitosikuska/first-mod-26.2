@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "fluorite",
+  "key": {
+    "F": "first-mod:fluorite"
+  },
+  "pattern": [
+    "F F",
+    "FFF",
+    "FFF"
+  ],
+  "result": {
+    "id": "first-mod:fluorite_chestplate"
+  }
+}

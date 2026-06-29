@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "first-mod:block/raw_fluorite_block",
+    "side": "first-mod:block/raw_fluorite_block",
+    "top": "first-mod:block/raw_fluorite_block"
+  }
+}

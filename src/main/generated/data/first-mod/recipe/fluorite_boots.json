@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "fluorite",
+  "key": {
+    "F": "first-mod:fluorite"
+  },
+  "pattern": [
+    "F F",
+    "F F"
+  ],
+  "result": {
+    "id": "first-mod:fluorite_boots"
+  }
+}

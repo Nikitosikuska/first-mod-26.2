@@ -17,7 +17,19 @@ public class ModCreativeModeTabs {
         FabricCreativeModeTab.builder().icon(() -> new ItemStack(ModItems.FLUORITE)).title(Component.translatable("creativemodetab.firstmod.fluorite")).displayItems((parameters, output) -> {
             output.accept(ModItems.FLUORITE);
             output.accept(ModItems.RAW_FLUORITE);
+            output.accept(ModItems.FLUORITE_SWORD);
+            output.accept(ModItems.FLUORITE_PICKAXE);
+            output.accept(ModItems.FLUORITE_SHOVEL);
+            output.accept(ModItems.FLUORITE_AXE);
+            output.accept(ModItems.FLUORITE_HOE);
+            output.accept(ModItems.FLUORITE_HELMET);
+            output.accept(ModItems.FLUORITE_CHESTPLATE);
+            output.accept(ModItems.FLUORITE_LEGGINGS);
+            output.accept(ModItems.FLUORITE_BOOTS);
             output.accept(ModBlocks.RAW_FLUORITE_BLOCK);
+            output.accept(ModBlocks.RAW_FLUORITE_STAIRS);
+            output.accept(ModBlocks.RAW_FLUORITE_SLAB);
+            output.accept(ModBlocks.RAW_FLUORITE_WALL);
             output.accept(ModBlocks.FLUORITE_BLOCK);
             output.accept(ModBlocks.FLUORITE_STAIRS);
             output.accept(ModBlocks.FLUORITE_SLAB);

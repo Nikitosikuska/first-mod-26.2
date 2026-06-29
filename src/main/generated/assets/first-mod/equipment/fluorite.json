@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "first-mod:fluorite"
+      }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "first-mod:fluorite"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "first-mod:fluorite"
+      }
+    ]
+  }
+}

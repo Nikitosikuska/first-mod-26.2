@@ -19,6 +19,18 @@
   "block.first-mod.fluorite_fence_gate": "Furtka fluorytowa",
   "block.first-mod.fluorite_wall": "Mur fluorytowy",
   "block.first-mod.fluorite_door": "Drzwi fluorytowe",
-  "block.first-mod.fluorite_trapdoor": "Klapa fluorytowa"
-
+  "block.first-mod.fluorite_trapdoor": "Klapa fluorytowa",
+  "block.first-mod.raw_fluorite_wall": "Mur z surowego fluorytu",
+  "block.first-mod.raw_fluorite_stairs": "Schodki z surowego fluorytu",
+  "block.first-mod.raw_fluorite_slab": "Płyta z surowego fluorytu",
+  "item.first-mod.fluorite_sword": "Fluorytowy miecz",
+  "item.first-mod.fluorite_pickaxe": "Fluorytowy kilof",
+  "item.first-mod.fluorite_axe": "Fluorytowa siekiera",
+  "item.first-mod.fluorite_shovel": "Fluorytowa łopata",
+  "item.first-mod.fluorite_hoe": "Fluorytowa motyka",
+  "item.first-mod.fluorite_spear": "Fluorytowa włócznia",
+  "item.first-mod.fluorite_helmet": "Fluorytowy hełm",
+  "item.first-mod.fluorite_chestplate": "Fluorytowy napięstnik",
+  "item.first-mod.fluorite_leggings": "Fluorytowe nogawice",
+  "item.first-mod.fluorite_boots": "Fluorytowe buty"
 }

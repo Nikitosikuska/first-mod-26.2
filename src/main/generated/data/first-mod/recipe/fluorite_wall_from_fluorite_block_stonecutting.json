@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "first-mod:fluorite_block",
+  "result": {
+    "id": "first-mod:fluorite_wall"
+  }
+}

@@ -19,5 +19,18 @@
   "block.first-mod.fluorite_fence_gate": "Fluorite Fence Gate",
   "block.first-mod.fluorite_wall": "Fluorite Wall",
   "block.first-mod.fluorite_door": "Fluorite Door",
-  "block.first-mod.fluorite_trapdoor": "Fluorite Trapdoor"
+  "block.first-mod.fluorite_trapdoor": "Fluorite Trapdoor",
+  "block.first-mod.raw_fluorite_wall": "Raw Fluorite Wall",
+  "block.first-mod.raw_fluorite_stairs": "Raw Fluorite Stairs",
+  "block.first-mod.raw_fluorite_slab": "Raw Fluorite Slab",
+  "item.first-mod.fluorite_sword": "Fluorite Sword",
+  "item.first-mod.fluorite_pickaxe": "Fluorite Pickaxe",
+  "item.first-mod.fluorite_axe": "Fluorite Axe",
+  "item.first-mod.fluorite_shovel": "Fluorite Shovel",
+  "item.first-mod.fluorite_hoe": "Fluorite Hoe",
+  "item.first-mod.fluorite_spear": "Fluorite Spear",
+  "item.first-mod.fluorite_helmet": "Fluorite Helmet",
+  "item.first-mod.fluorite_chestplate": "Fluorite Chestplate",
+  "item.first-mod.fluorite_leggings": "Fluorite Leggings",
+  "item.first-mod.fluorite_boots": "Fluorite Boots"
 }

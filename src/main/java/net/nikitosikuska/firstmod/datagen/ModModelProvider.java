@@ -8,6 +8,7 @@ import net.minecraft.client.data.models.model.ModelTemplates;
 import net.minecraft.world.item.Item;
 import net.nikitosikuska.firstmod.block.ModBlocks;
 import net.nikitosikuska.firstmod.block.custom.StrawberryBushBlock;
+import net.nikitosikuska.firstmod.item.ModArmorMaterials;
 import net.nikitosikuska.firstmod.item.ModItems;
 import org.jspecify.annotations.NonNull;
 
@@ -18,7 +19,6 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(@NonNull BlockModelGenerators blockModelGenerators) {
-        blockModelGenerators.createTrivialCube(ModBlocks.RAW_FLUORITE_BLOCK);
         blockModelGenerators.createTrivialCube(ModBlocks.FLUORITE_ORE);
         blockModelGenerators.createTrivialCube(ModBlocks.FLUORITE_DEEPSLATE_ORE);
         blockModelGenerators.createTrivialCube(ModBlocks.FLUORITE_NETHER_ORE);
@@ -32,6 +32,10 @@ public class ModModelProvider extends FabricModelProvider {
                 .fence(ModBlocks.FLUORITE_FENCE)
                 .fenceGate(ModBlocks.FLUORITE_FENCE_GATE)
                 .wall(ModBlocks.FLUORITE_WALL);
+        blockModelGenerators.family(ModBlocks.RAW_FLUORITE_BLOCK)
+                .stairs(ModBlocks.RAW_FLUORITE_STAIRS)
+                .slab(ModBlocks.RAW_FLUORITE_SLAB)
+                .wall(ModBlocks.RAW_FLUORITE_WALL);
         blockModelGenerators.createDoor(ModBlocks.FLUORITE_DOOR);
         blockModelGenerators.createTrapdoor(ModBlocks.FLUORITE_TRAPDOOR);
 
@@ -42,5 +46,15 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerators.generateFlatItem(ModItems.FLUORITE, ModelTemplates.FLAT_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.RAW_FLUORITE, ModelTemplates.FLAT_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.COMBUSTIBLE_SPORES, ModelTemplates.FLAT_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.FLUORITE_SWORD, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.FLUORITE_PICKAXE, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.FLUORITE_SHOVEL, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.FLUORITE_AXE, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.FLUORITE_HOE, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerators.generateSpear(ModItems.FLUORITE_SPEAR);
+        itemModelGenerators.generateTrimmableItem(ModItems.FLUORITE_HELMET, ModArmorMaterials.FLUORITE_KEY, ItemModelGenerators.TRIM_PREFIX_HELMET, false);
+        itemModelGenerators.generateTrimmableItem(ModItems.FLUORITE_CHESTPLATE, ModArmorMaterials.FLUORITE_KEY, ItemModelGenerators.TRIM_PREFIX_CHESTPLATE, false);
+        itemModelGenerators.generateTrimmableItem(ModItems.FLUORITE_LEGGINGS, ModArmorMaterials.FLUORITE_KEY, ItemModelGenerators.TRIM_PREFIX_LEGGINGS, false);
+        itemModelGenerators.generateTrimmableItem(ModItems.FLUORITE_BOOTS, ModArmorMaterials.FLUORITE_KEY, ItemModelGenerators.TRIM_PREFIX_BOOTS, false);
     }
 }

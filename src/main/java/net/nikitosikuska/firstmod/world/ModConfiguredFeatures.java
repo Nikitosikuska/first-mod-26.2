@@ -37,8 +37,8 @@ public class ModConfiguredFeatures {
         List<OreConfiguration.TargetBlockState> endFluoriteOres =
                 List.of(OreConfiguration.target(endReplaceables, ModBlocks.FLUORITE_END_ORE.defaultBlockState()));
 
-        register(context, FLUORITE_ORE_KEY, Feature.ORE, new OreConfiguration(overworldFluoriteOres, 12));
-        register(context, FLUORITE_NETHER_ORE_KEY, Feature.ORE, new OreConfiguration(netherFluoriteOres, 9));
+        register(context, FLUORITE_ORE_KEY, Feature.ORE, new OreConfiguration(overworldFluoriteOres, 6));
+        register(context, FLUORITE_NETHER_ORE_KEY, Feature.ORE, new OreConfiguration(netherFluoriteOres, 6));
         register(context, FLUORITE_END_ORE_KEY, Feature.ORE, new OreConfiguration(endFluoriteOres, 6));
 
     }

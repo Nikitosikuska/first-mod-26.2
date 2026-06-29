@@ -19,6 +19,18 @@
   "block.first-mod.fluorite_fence_gate": "Флюоритовая калитка",
   "block.first-mod.fluorite_wall": "Флюоритовая стена",
   "block.first-mod.fluorite_door": "Флюоритовая дверь",
-  "block.first-mod.fluorite_trapdoor": "Флюоритовый люк"
-
+  "block.first-mod.fluorite_trapdoor": "Флюоритовый люк",
+  "block.first-mod.raw_fluorite_wall": "Ограда из необработанного флюорита",
+  "block.first-mod.raw_fluorite_stairs": "Ступеньки из необработанного флюорита",
+  "block.first-mod.raw_fluorite_slab": "Плита из необработанного флюорита",
+  "item.first-mod.fluorite_sword": "Флюоритовый меч",
+  "item.first-mod.fluorite_pickaxe": "Флюоритовая кирка",
+  "item.first-mod.fluorite_axe": "Флюоритовый топор",
+  "item.first-mod.fluorite_shovel": "Флюоритовая лопата",
+  "item.first-mod.fluorite_hoe": "Флюоритовая мотыга",
+  "item.first-mod.fluorite_spear": "Флюоритовое копьё",
+  "item.first-mod.fluorite_helmet": "Флюоритовый шлем",
+  "item.first-mod.fluorite_chestplate": "Флюоритовый нагрудник",
+  "item.first-mod.fluorite_leggings": "Флюоритовые поножи",
+  "item.first-mod.fluorite_boots": "Флюоритовые ботинки"
 }

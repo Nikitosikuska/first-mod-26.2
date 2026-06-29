@@ -27,16 +27,16 @@ public class ModPlacedFeatures {
         var configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
 
         register(context, FLUORITE_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.FLUORITE_ORE_KEY),
-                ModOrePlacement.modifiersWithCount(14,
-                        HeightRangePlacement.uniform(VerticalAnchor.absolute(-80), VerticalAnchor.absolute(80))
+                ModOrePlacement.modifiersWithCount(8,
+                        HeightRangePlacement.uniform(VerticalAnchor.absolute(-63), VerticalAnchor.absolute(40))
                         ));
         register(context, FLUORITE_NETHER_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.FLUORITE_NETHER_ORE_KEY),
-                ModOrePlacement.modifiersWithCount(14,
-                        HeightRangePlacement.uniform(VerticalAnchor.absolute(-80), VerticalAnchor.absolute(80))
+                ModOrePlacement.modifiersWithCount(8,
+                        HeightRangePlacement.uniform(VerticalAnchor.absolute(-63), VerticalAnchor.absolute(40))
                 ));
         register(context, FLUORITE_END_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.FLUORITE_END_ORE_KEY),
-                ModOrePlacement.modifiersWithCount(14,
-                        HeightRangePlacement.uniform(VerticalAnchor.absolute(-80), VerticalAnchor.absolute(80))
+                ModOrePlacement.modifiersWithCount(8,
+                        HeightRangePlacement.uniform(VerticalAnchor.absolute(-63), VerticalAnchor.absolute(40))
                 ));
     }
 
