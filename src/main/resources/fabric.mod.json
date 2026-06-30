@@ -2,16 +2,15 @@
 	"schemaVersion": 1,
 	"id": "first-mod",
 	"version": "${version}",
-	"name": "first Mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Fluorite Ores",
+	"description": "Adds fluorite ore in all dimensions best for midgame after iron and before diamond.",
 	"authors": [
 		"Nikitosikuska"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/Nikitosikuska/fluorite"
 	},
-	"license": "CC0-1.0",
+	"license": "All Rights Reserved",
 	"icon": "assets/first-mod/icon.png",
 	"environment": "*",
 	"entrypoints": {
